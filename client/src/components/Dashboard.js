@@ -32,7 +32,7 @@ import adminAvatar from './Admin/admin-avatar.png';
 
 const pages = ['Home', 'Movies', 'Contact'];
 
-const base_url = 'http://localhost:8081';
+const base_url = 'https://movie-booking-site-backend.onrender.com';
 
 
 function Dashboard() {
