@@ -13,7 +13,7 @@ import {useNavigate} from 'react-router-dom';
 
 
 
-const base_url = "http://localhost:8081";
+const base_url = "https://movie-booking-site-backend.onrender.com";
 
 
 
