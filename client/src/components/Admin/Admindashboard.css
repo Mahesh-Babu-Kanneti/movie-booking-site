@@ -1,0 +1,299 @@
+
+
+
+/*-------SIDEBAR-SECTION--------*/
+.logo{
+    border-bottom:1px solid grey;
+    color:white;
+    font-weight:bolder;
+    width:100%;
+    /* padding:16.5px;                              */
+    padding:25px 15px;
+    height:65px;
+    /* font-size:18px;                                 */
+    font-size:10px;
+    text-align:center;
+}
+
+.sidebar-section{
+    /* background:pink; */
+    background:transparent;
+    /* width:14%; */
+    width:5%;
+    height:100vh;
+    /* position: fixed; */
+}
+
+.sidebar-section ul{
+    padding:0px;
+    margin:5px 0px 0px 0px;
+}
+
+.sidebar-section ul li{
+    list-style: none;
+    width:100%;
+    height:60px;
+    /* padding:18px 40px; */
+    padding:20px 28px;
+}
+
+.sidebar-section ul li:hover{
+    cursor: pointer;;
+    background:blue;
+    transform: scale(1.04);
+    border-radius: 5px;
+}
+
+
+
+/* .sidebar-section ul li a{
+    font-size: 14px;
+    color:grey !important;
+    text-align: justify;
+} */
+.sidebar-section ul a{
+    font-size: 14px;
+    color:grey !important;
+    text-align: justify;
+    /* text-align: center; */
+    text-decoration: none;
+}
+
+/* .sidebar-section ul li:hover a{
+    color:white !important;
+} */
+
+/* .sidebar-section ul a.active{
+    background:yellow !important;
+} */
+
+.sidebar-section ul a:hover{
+    color:white !important;
+}
+
+
+.sidebar-section ul a li p{
+    display: none;
+}
+
+
+/*---HEADER----*/
+.home:hover,#home-btn:hover{
+    cursor: pointer;
+}
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root,.MuiContainer-root.MuiContainer-maxWidthXl.css-19r6kue-MuiContainer-root{
+    background-color: black !important;
+}
+
+
+
+/*----------SETTINGS--SECTION--------*/
+
+#settings{
+    border-radius: 5px;
+    display:none;
+    background: white;
+    position:absolute;
+    top:60px;
+    right: 0px;
+    width:120px;
+    height:130px;
+    box-shadow: -1px 1px 5px grey;
+}
+
+#settings ul{
+    padding: 0px;
+}
+
+#settings ul a{
+    text-decoration: none;;
+}
+
+
+#settings ul a li{
+    list-style: none;
+    padding:10px;
+    /* margin:0px 25px; */
+    color:black;
+    width: 100%;
+    text-align: center;
+}
+
+#settings ul a li:hover{
+    background: blue;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+/*-------RESPONSIVE IN MOBILE VIEW---------*/
+/* .css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper{
+    border-radius: 0px !important;
+    width:100% !important;
+    top:65px !important;
+    left:0px !important;
+    max-width: none !important;
+} */
+
+
+
+
+/*---------MEDIA QUERIES TO BE RESPONSIVE---------*/
+@media screen and (max-width:900px){
+    .sidebar-section{
+        width:0px !important;
+    }
+    #home-btn{
+        display: none !important;
+    }
+    .sidebar-section ul{
+        display: none !important;
+    }
+}
+
+/*------MENU BAR ITEMS-----*/
+
+@media screen and (max-width:600px){
+    .css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper{
+        /* top:48px !important; */
+        top:65px !important;
+        position:fixed !important;
+    }
+}
+
+@media screen and (max-width:381px){
+    .css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper{
+        top:65px !important;
+    }
+}
+
+
+
+
+/*----------SIDE BAR RESPONSIVE PC AND LAPTOPS---------*/
+/*---ICONS-----*/
+@media only screen and (min-width:1151px) and (max-width:1380px){
+    .sidebar-section ul li{
+        padding:20px 22px !important;
+    }
+} 
+
+@media only screen and (min-width:1041px) and (max-width:1151px){
+    .sidebar-section ul li{
+        padding:20px 18px !important;
+    }
+} 
+
+@media only screen and (min-width:901px) and (max-width:1040px){
+    .sidebar-section ul li{
+        padding:20px 14px !important;
+    }
+} 
+
+
+/*------LOGO-------*/
+
+@media only screen and (min-width:1245px) and (max-width:1380px){
+    .logo{
+        font-size:9px !important;
+    }
+} 
+
+
+@media only screen and (min-width:1173px) and (max-width:1244px){
+    .logo{
+        font-size:8px !important;
+    }
+} 
+
+
+@media only screen and (min-width:1101px) and (max-width:1172px){
+    .logo{
+        font-size:7px !important;
+    }
+} 
+
+@media only screen and (min-width:901px) and (max-width:1100px){
+    .logo{
+        font-size:6px !important;
+    }
+} 
+
+@media only screen and (min-width:901px) and (max-width:1100px){
+    .logo{
+        padding:25px 10px !important;
+    }
+} 
+
+
+
+/*----SIDEBAR LIST FONT-SIZE--------*/
+
+
+@media only screen and (min-width:1158px) and (max-width:1248px){
+    .sidebar-section ul a li p{
+        font-size:12px !important;
+    }
+} 
+
+@media only screen and (min-width:1048px) and (max-width:1157px){
+    .sidebar-section ul a li p{
+        font-size:11px !important;
+    }
+} 
+
+@media only screen and (min-width:937px) and (max-width:1048px){
+    .sidebar-section ul a li p{
+        font-size:10px !important;
+    }
+} 
+
+@media only screen and (min-width:901px) and (max-width:936px){
+    .sidebar-section ul a li p{
+        font-size:9px !important;
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------USERS COMPONENT-----------------------------*/
+
+
+
+
+
+
+
+/*---------MOBILE RESPONSIVE-------DEVICE--------*/
+
+@media only screen and (max-width:360px){
+    .users-table thead tr th{
+        font-size: 13px;
+    }
+    .users-table tbody tr td{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
