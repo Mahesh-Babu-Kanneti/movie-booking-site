@@ -1,0 +1,111 @@
+
+/*-------BANNER SECTION-----*/
+.banner-section{
+    height:638px !important;
+    width:100% !important;
+}
+
+.carousel-indicators{
+    display: none !important;
+}
+
+.banner-book-link{
+    text-decoration: none !important;
+    color:aliceblue !important;
+   position:relative !important;
+   top:250px;
+}
+
+.banner-caption{
+    position:relative !important;
+    right:0px !important;
+    left:60px !important;
+    width: 500px !important;
+    top:80px !important;
+    bottom:10px !important;
+    text-align: left !important;
+}
+
+
+
+/*----MOVIES-LIST SECTION-----*/
+.movie-card-div{
+    background: black !important;
+    color:aliceblue !important;
+    border:1px solid grey !important;
+}
+.movie-card-div:hover{
+    cursor: pointer !important;
+    transform: scale(1.1) !important;
+    transition: transform 1.0s !important;
+}
+
+
+
+
+
+/*-----------------TICKET BOOK----------*/
+.container-book button{
+    padding:20px !important;
+    width:auto !important;
+}
+
+
+.time{
+    width:250px;
+    height:50px;
+    padding: 15px;;
+    margin: 15px 50px;
+    border-radius: 5px;
+    border: none;
+}
+
+.date{
+    width:250px;
+    height:50px;
+    padding: 15px;;
+    margin: 15px 50px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+
+
+.confirm-book{
+    background: orange;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    float: right;
+    padding: 20px;
+    margin:-70px 10px auto auto;
+}
+
+
+
+
+
+.confirm-seat{
+    border: none;
+    color:aliceblue;
+    width: auto;
+    margin:100px auto auto auto;
+    padding:15px 5px;
+    float: left;
+}
+
+
+.confirm-price{
+    border: none;
+    color:aliceblue;
+    width: auto;
+    float: right;
+    /* padding:10px 50px;
+    margin:100px auto; */
+    padding:15px;
+    margin:100px auto auto auto;
+    
+
+}
+
