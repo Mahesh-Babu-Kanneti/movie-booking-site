@@ -11,7 +11,7 @@ import { FaArrowLeft } from "react-icons/fa";
 
 
 
-const base_url = 'http://localhost:8081';
+const base_url = 'https://movie-booking-site-backend.onrender.com';
 
 
 
